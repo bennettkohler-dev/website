@@ -1,0 +1,61 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Services"
+pageRef = "/services"
+weight = 2
+
+[[main]]
+name = "Pricing"
+pageRef = "/pricing"
+weight = 3
+
+
+[[main]]
+parent = "Services"
+name = "Narrative Design"
+pageRef = "/narrative-design"
+
+[[main]]
+parent = "Services"
+name = "Proofreading"
+pageRef = "/proofreading"
+
+[[main]]
+parent = "Services"
+name = "Editing"
+pageRef = "/editing"
+
+[[main]]
+parent = "Services"
+name = "Writing"
+pageRef = "/Writing"
+
+
+[[main]]
+name = "Portfolio"
+pageRef = "/portfolio"
+weight = 5
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Elements"
+pageRef = "/elements"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3
